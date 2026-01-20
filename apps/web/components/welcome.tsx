@@ -16,8 +16,8 @@ export function Welcome() {
           </span>
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          A modern, full-stack starter kit built with Turborepo, Next.js,
-          TailwindCSS, Shadcn, NestJS, and Prisma
+          A full-stack starter kit built with Turborepo, Next.js,
+          Shadcn, TailwindCSS, Prisma, and NestJS
         </p>
       </div>
 
@@ -39,15 +39,15 @@ export function Welcome() {
             icon: "/prisma-dark.svg",
           },
           {
-            title: "TailwindCSS",
-            description: "Utility-first CSS framework for rapid UI development",
-            icon: "/tailwindcss.svg",
-          },
-          {
             title: "Shadcn",
             description:
               "Beautiful, accessible UI components built with Radix UI",
             icon: "/shadcn-dark.svg",
+          },
+          {
+            title: "TailwindCSS",
+            description: "Utility-first CSS framework for rapid UI development",
+            icon: "/tailwindcss.svg",
           },
           {
             title: "Turborepo",
